@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Main.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/PlayingCard.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/PlayingCardDeck.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/Set.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/ViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:Set.Emojis.xcodeproj">
    </FileRef>
 </Workspace>

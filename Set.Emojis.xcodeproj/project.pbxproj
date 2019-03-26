@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		BE0B27A2224A982B0062FC5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B27A1224A982B0062FC5C /* AppDelegate.swift */; };
-		BE0B27A4224A982B0062FC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B27A3224A982B0062FC5C /* ViewController.swift */; };
-		BE0B27A7224A982B0062FC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0B27A5224A982B0062FC5C /* Main.storyboard */; };
 		BE0B27A9224A982F0062FC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0B27A8224A982F0062FC5C /* Assets.xcassets */; };
 		BE0B27AC224A982F0062FC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0B27AA224A982F0062FC5C /* LaunchScreen.storyboard */; };
+		BE0B27B4224A988F0062FC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0B27B3224A988F0062FC5C /* Main.storyboard */; };
+		BE0B27B6224A98B90062FC5C /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B27B5224A98B90062FC5C /* PlayingCard.swift */; };
+		BE0B27B8224A98BC0062FC5C /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B27B7224A98BC0062FC5C /* PlayingCardDeck.swift */; };
+		BE0B27BA224A98BE0062FC5C /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B27B9224A98BE0062FC5C /* Set.swift */; };
+		BE0B27BC224A98C00062FC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B27BB224A98C00062FC5C /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE0B279E224A982B0062FC5C /* Set.Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.Emojis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0B27A1224A982B0062FC5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE0B27A3224A982B0062FC5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE0B27A6224A982B0062FC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE0B27A8224A982F0062FC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE0B27AB224A982F0062FC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE0B27AD224A982F0062FC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0B27B3224A988F0062FC5C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BE0B27B5224A98B90062FC5C /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayingCard.swift; path = /Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/PlayingCard.swift; sourceTree = "<absolute>"; };
+		BE0B27B7224A98BC0062FC5C /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayingCardDeck.swift; path = /Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/PlayingCardDeck.swift; sourceTree = "<absolute>"; };
+		BE0B27B9224A98BE0062FC5C /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Set.swift; path = /Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/Set.swift; sourceTree = "<absolute>"; };
+		BE0B27BB224A98C00062FC5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/beckerresearch/Downloads/Set.Emojis/Set.Emojis/ViewController.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		BE0B27A0224A982B0062FC5C /* Set.Emojis */ = {
 			isa = PBXGroup;
 			children = (
+				BE0B27B3224A988F0062FC5C /* Main.storyboard */,
+				BE0B27B9224A98BE0062FC5C /* Set.swift */,
+				BE0B27B5224A98B90062FC5C /* PlayingCard.swift */,
+				BE0B27BB224A98C00062FC5C /* ViewController.swift */,
+				BE0B27B7224A98BC0062FC5C /* PlayingCardDeck.swift */,
 				BE0B27A1224A982B0062FC5C /* AppDelegate.swift */,
-				BE0B27A3224A982B0062FC5C /* ViewController.swift */,
-				BE0B27A5224A982B0062FC5C /* Main.storyboard */,
 				BE0B27A8224A982F0062FC5C /* Assets.xcassets */,
 				BE0B27AA224A982F0062FC5C /* LaunchScreen.storyboard */,
 				BE0B27AD224A982F0062FC5C /* Info.plist */,
@@ -122,9 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0B27B4224A988F0062FC5C /* Main.storyboard in Resources */,
 				BE0B27AC224A982F0062FC5C /* LaunchScreen.storyboard in Resources */,
 				BE0B27A9224A982F0062FC5C /* Assets.xcassets in Resources */,
-				BE0B27A7224A982B0062FC5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0B27A4224A982B0062FC5C /* ViewController.swift in Sources */,
+				BE0B27BC224A98C00062FC5C /* ViewController.swift in Sources */,
+				BE0B27BA224A98BE0062FC5C /* Set.swift in Sources */,
+				BE0B27B8224A98BC0062FC5C /* PlayingCardDeck.swift in Sources */,
+				BE0B27B6224A98B90062FC5C /* PlayingCard.swift in Sources */,
 				BE0B27A2224A982B0062FC5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE0B27A5224A982B0062FC5C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE0B27A6224A982B0062FC5C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE0B27AA224A982F0062FC5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
